@@ -266,6 +266,72 @@
         </div>
 
     </section>
+      <!-- ================= SPECIAL OFFERS ================= -->
+
+<section class="offers">
+
+    <h4>Today's Special</h4>
+    <h2>Limited Time Offers</h2>
+
+    <div class="offer-container">
+
+        <div class="offer-card">
+
+            <span class="offer-badge">20% OFF</span>
+
+            <img src="images/pizza.jpg" alt="Pizza">
+
+            <h3>Margherita Pizza</h3>
+
+            <p>Cheesy delight with fresh basil & mozzarella.</p>
+
+            <h4><del>₹299</del> ₹239</h4>
+
+            <button onclick="specialOffer('Margherita Pizza')">
+                Order Now
+            </button>
+
+        </div>
+
+        <div class="offer-card">
+
+            <span class="offer-badge">Buy 1 Get 1</span>
+
+            <img src="images/burger.jpg" alt="Burger">
+
+            <h3>Cheese Burger</h3>
+
+            <p>Juicy burger loaded with cheese and veggies.</p>
+
+            <h4>₹249</h4>
+
+            <button onclick="specialOffer('Cheese Burger')">
+                Order Now
+            </button>
+
+        </div>
+
+        <div class="offer-card">
+
+            <span class="offer-badge">Free Dessert</span>
+
+            <img src="images/cake.jpg" alt="Dessert">
+
+            <h3>Chocolate Dessert</h3>
+
+            <p>Get a free dessert with any family meal.</p>
+
+            <h4>Special Combo</h4>
+
+            <button onclick="specialOffer('Chocolate Dessert')">
+                Order Now
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
 
     <section class="choose">
 
@@ -364,6 +430,79 @@
         </div>
 
     </section>
+
+    <!-- ================= OPENING HOURS ================= -->
+
+<section class="hours">
+
+    <h4>Opening Hours</h4>
+    <h2>We're Open Every Day</h2>
+
+    <div class="hours-container">
+
+        <div class="day">
+            <span>Monday</span>
+            <span>10:00 AM - 11:00 PM</span>
+        </div>
+
+        <div class="day">
+            <span>Tuesday</span>
+            <span>10:00 AM - 11:00 PM</span>
+        </div>
+
+        <div class="day">
+            <span>Wednesday</span>
+            <span>10:00 AM - 11:00 PM</span>
+        </div>
+
+        <div class="day">
+            <span>Thursday</span>
+            <span>10:00 AM - 11:00 PM</span>
+        </div>
+
+        <div class="day">
+            <span>Friday</span>
+            <span>10:00 AM - 12:00 AM</span>
+        </div>
+
+        <div class="day">
+            <span>Saturday</span>
+            <span>10:00 AM - 12:00 AM</span>
+        </div>
+
+        <div class="day">
+            <span>Sunday</span>
+            <span>11:00 AM - 10:00 PM</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= LOCATION ================= -->
+
+<section class="location">
+
+    <h4>Find Us</h4>
+
+    <h2>Visit Spice Delight</h2>
+
+    <p>
+        📍 123 Food Street, New Delhi, India
+    </p>
+
+    <div class="map">
+
+        <iframe
+            src="https://www.google.com/maps?q=New+Delhi&output=embed"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+
+    </div>
+
+</section>
+
     <!-- ================= CONTACT ================= -->
 
 <section class="contact" id="contact">
@@ -393,6 +532,31 @@
         <button type="submit">Send Message</button>
 
     </form>
+
+</section>
+
+<!-- ================= TO DO LIST ================= -->
+
+<section class="todo-section">
+
+    <h2>Restaurant Task Planner</h2>
+    <p>Manage your daily restaurant tasks.</p>
+
+    <div class="todo-box">
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter a task..."
+        >
+
+        <button onclick="addTask()">
+            Add Task
+        </button>
+
+    </div>
+
+    <ul id="taskList"></ul>
 
 </section>
   

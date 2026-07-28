@@ -897,3 +897,390 @@ nav ul.show{
 }
 
 }
+
+/* ================= TO DO LIST ================= */
+
+.todo-section{
+
+padding:80px 8%;
+background:#fff;
+text-align:center;
+
+}
+
+.todo-section h2{
+
+font-size:42px;
+margin-bottom:10px;
+color:#E63946;
+
+}
+
+.todo-section p{
+
+color:#666;
+margin-bottom:30px;
+
+}
+
+.todo-box{
+
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+margin-bottom:30px;
+
+}
+
+.todo-box input{
+
+width:350px;
+padding:14px;
+border:2px solid #ddd;
+border-radius:10px;
+font-size:16px;
+
+}
+
+.todo-box button{
+
+padding:14px 25px;
+background:#E63946;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+
+}
+
+.todo-box button:hover{
+
+background:#ffb703;
+color:#222;
+
+}
+
+#taskList{
+
+max-width:600px;
+margin:auto;
+padding:0;
+
+}
+
+#taskList li{
+
+list-style:none;
+background:white;
+margin:12px 0;
+padding:15px 20px;
+border-radius:12px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+#taskList button{
+
+background:#E63946;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:8px;
+cursor:pointer;
+
+}
+
+#taskList button:hover{
+
+background:black;
+
+}
+
+@media(max-width:768px){
+
+.todo-box input{
+
+width:100%;
+
+}
+
+.todo-box{
+
+flex-direction:column;
+
+}
+
+}
+/* ================= SPECIAL OFFERS ================= */
+
+.offers{
+
+padding:90px 8%;
+background:#fff7ef;
+text-align:center;
+
+}
+
+.offers h4{
+
+color:#E63946;
+font-size:22px;
+
+}
+
+.offers h2{
+
+font-size:42px;
+margin:15px 0 50px;
+
+}
+
+.offer-container{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+
+}
+
+.offer-card{
+
+background:white;
+padding:20px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+position:relative;
+transition:.4s;
+
+}
+
+.offer-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.offer-card img{
+
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:15px;
+
+}
+
+.offer-card h3{
+
+margin-top:15px;
+font-size:24px;
+
+}
+
+.offer-card p{
+
+color:#666;
+margin:15px 0;
+
+}
+
+.offer-card h4{
+
+color:#E63946;
+font-size:24px;
+margin-bottom:20px;
+
+}
+
+.offer-card button{
+
+background:#E63946;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:30px;
+cursor:pointer;
+transition:.3s;
+
+}
+
+.offer-card button:hover{
+
+background:#ffb703;
+color:#222;
+
+}
+
+.offer-badge{
+
+position:absolute;
+top:15px;
+left:15px;
+background:#ff9800;
+color:white;
+padding:8px 15px;
+border-radius:30px;
+font-size:14px;
+font-weight:bold;
+
+}
+
+@media(max-width:768px){
+
+.offers h2{
+
+font-size:32px;
+
+}
+
+}
+/* ================= OPENING HOURS ================= */
+
+.hours{
+
+padding:90px 8%;
+background:#fff;
+text-align:center;
+
+}
+
+.hours h4{
+
+color:#E63946;
+font-size:22px;
+
+}
+
+.hours h2{
+
+font-size:42px;
+margin:15px 0 50px;
+
+}
+
+.hours-container{
+
+max-width:700px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+}
+
+.day{
+
+display:flex;
+justify-content:space-between;
+padding:18px 0;
+border-bottom:1px solid #eee;
+font-size:18px;
+
+}
+
+.day:last-child{
+
+border-bottom:none;
+
+}
+
+.day span:first-child{
+
+font-weight:600;
+
+}
+
+.day span:last-child{
+
+color:#E63946;
+font-weight:bold;
+
+}
+
+@media(max-width:768px){
+
+.day{
+
+flex-direction:column;
+gap:8px;
+text-align:center;
+
+}
+
+.hours h2{
+
+font-size:32px;
+
+}
+
+}
+
+/* ================= LOCATION ================= */
+
+.location{
+
+padding:90px 8%;
+background:#fff7ef;
+text-align:center;
+
+}
+
+.location h4{
+
+color:#E63946;
+font-size:22px;
+
+}
+
+.location h2{
+
+font-size:42px;
+margin:15px 0;
+
+}
+
+.location p{
+
+font-size:18px;
+margin-bottom:35px;
+
+}
+
+.map{
+
+width:100%;
+max-width:1100px;
+margin:auto;
+
+}
+
+.map iframe{
+
+width:100%;
+height:450px;
+border:none;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+@media(max-width:768px){
+
+.location h2{
+
+font-size:32px;
+
+}
+
+.map iframe{
+
+height:300px;
+
+}
+
+}
